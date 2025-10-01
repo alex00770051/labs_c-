@@ -4,416 +4,442 @@
 #include <vector>
 using namespace std;
 
+
+
+//1 Ð·Ð°Ð´Ð°Ñ‡Ð°
 double fraction(double num1) {
-    int inter_part = (int)num1;
-    return num1 - inter_part;
+	int inter_part = (int)num1;
+	return num1 - inter_part;
 }
-
+//2Ð·Ð°Ð´Ð°Ñ‡Ð°--------------------------------
 int charToNum(char num2) {
-    return num2;
+	return num2 ;
 }
-
+//3Ð·Ð°Ð´Ð°Ñ‡Ð°--------------------------------
 bool is2Digits(int num3) {
-    return (num3 >= 10 && num3 <= 99) || (num3 <= -10 && num3 >= -99);
+	return (num3 >= 10 && num3 <= 99) || (num3 <= -10 && num3 >= -99);
 }
-
+//4Ð·Ð°Ð´Ð°Ñ‡Ð°--------------------------------
 bool isInRange(int a, int b, int num4) {
-    int min_Range = (a < b) ? a : b;
-    int max_Range = (a > b) ? a : b;
-    return (num4 >= min_Range && num4 <= max_Range);
+	int min_Range = (a < b) ? a : b;
+	int max_Range = (a > b) ? a : b;
+	return (num4 >= min_Range && num4 <= max_Range);
 }
-
+//5Ð·Ð°Ð´Ð°Ñ‡Ð°--------------------------------
 bool isEqual(int c, int d, int e) {
-    return c == d && d == e;
+	return c == d && d == e;
 }
-
+//6Ð·Ð°Ð´Ð°Ñ‡Ð°----------------------------------------
 int abs(int x6) {
-    if (x6 > 0) {
-        return x6;
-    }
-    else {
-        return -x6;
-    }
+	if (x6 > 0) {
+		return x6;
+	}
+	else {
+		return -x6;
+	}
 }
-
+//7Ð·Ð°Ð´Ð°Ñ‡Ð°----------------------------------------
 bool is35(int x7) {
-    return (x7 % 3 == 0) != (x7 % 5 == 0);
+	return (x7 % 3 == 0) != (x7 % 5 == 0);
 }
-
+//8Ð·Ð°Ð´Ð°Ñ‡Ð°----------------------------------------
 int max3(int x8, int y8, int z8) {
-    int max = x8;
-    if (max < y8) max = y8;
-    if (max < z8) max = z8;
-    return max;
+	int max = x8;
+	if (max < y8) max = y8;
+	if (max < z8) max = z8;
+	return max;
 }
-
+//9Ð·Ð°Ð´Ð°Ñ‡Ð°----------------------------------------
 int sum2(int x9, int y9) {
-    int sum9 = x9 + y9;
-    if (sum9 >= 10 && sum9 <= 19) {
-        return 20;
-    }
-    return sum9;
+	int sum9 = x9 + y9;
+	if (sum9 >= 10 && sum9 <= 19) {
+		return 20;
+	}
+	return sum9;
 }
-
+//10Ð·Ð°Ð´Ð°Ñ‡Ð°----------------------------------------
 string day(int x10) {
-    switch (x10) {
-    case 1:
-        return "ïîíåäåëüíèê";
-    case 2:
-        return "âòîðíèê";
-    case 3:
-        return "ñðåäà";
-    case 4:
-        return "÷åòâåðã";
-    case 5:
-        return "ïÿòíèöà";
-    case 6:
-        return "ñóááîòà";
-    case 7:
-        return "âîñêðåñåíüå";
-    default:
-        return "ýòî íå äåíü íåäåëè";
-    }
+	switch (x10) {
+	case 1:
+		return "Ð¿Ð¾Ð½ÐµÐ´ÐµÐ»ÑŒÐ½Ð¸Ðº";
+	case 2:
+		return "Ð²Ñ‚Ð¾Ñ€Ð½Ð¸Ðº";
+	case 3:
+		return "ÑÑ€ÐµÐ´Ð°";
+	case 4:
+		return "Ñ‡ÐµÑ‚Ð²ÐµÑ€Ð³";
+	case 5: 
+		return "Ð¿ÑÑ‚Ð½Ð¸Ñ†Ð°";
+	case 6: 
+		return "ÑÑƒÐ±Ð±Ð¾Ñ‚Ð°";
+	case 7: 
+		return "Ð²Ð¾ÑÐºÑ€ÐµÑÐµÐ½ÑŒÐµ";
+	default:
+		return "ÑÑ‚Ð¾ Ð½Ðµ Ð´ÐµÐ½ÑŒ Ð½ÐµÐ´ÐµÐ»Ð¸";
+	}
 }
-
+//11Ð·Ð°Ð´Ð°Ñ‡Ð°----------------------------------------
 string ListNums(int x) {
-    string result = " ";
-    for (int i = 0; i <= x; i++) {
-        result += to_string(i);
-        if (i < x) {
-            result += " ";
-        }
-    }
-    return result;
+	string result = " ";
+	for (int i = 0; i <= x; i++) {
+		result += to_string(i);
+		if (i < x) {
+			result += " ";
+		}
+	}
+	return result;
 }
-
+//12Ð·Ð°Ð´Ð°Ñ‡Ð°----------------------------------------
 string chet(int x) {
-    string result = "";
-    for (int i = 0; i <= x; i += 2) {
-        result += " " + to_string(i);
-    }
-    return result;
+	string result = " ";
+	for (int i = 0; i <= x; i+=2) {
+		result += to_string(i);
+		if (i < x) {
+			result += " ";
+		}
+	}
+	return result;
 }
-
+//13Ð·Ð°Ð´Ð°Ñ‡Ð°----------------------------------------
 int numLen(long x) {
-    if (x == 0) {
-        return 1;
-    }
-    if (x < 0) {
-        x = -x;
-    }
-    int count = 0;
-    while (x > 0) {
-        x = x / 10;
-        count++;
-    }
-    return count;
+	if (x == 0) {
+		return 1;
+	}
+	if (x < 0) {
+		x = -x;
+	}
+	int count = 0;
+	while (x > 0) {
+		x = x / 10;
+		count++;
+	}
+	return count;
 }
-
+//14Ð·Ð°Ð´Ð°Ñ‡Ð°----------------------------------------
 void square(int x) {
-    for (int i = 0; i < x; i++) {
-        for (int j = 0; j < x; j++) {
-            cout << "*";
-        }
-        cout << endl;
-    }
+	for (int i = 0; i < x; i++) {
+		for (int j = 0; j < x; j++) {
+			cout << "*";
+		}
+		cout << endl;
+	}
 }
-
+//15 Ð·Ð°Ð´Ð°Ñ‡Ð°--------------------------------------------
 void rightTriangle(int x) {
-    for (int i = 1; i <= x; i++) {
-        for (int j = 0; j < x - i; j++) {
-            cout << " ";
-        }
-        for (int k = 0; k < i; k++) {
-            cout << "*";
-        }
-        cout << endl;
-    }
+	for (int i = 1; i <= x; i++) {
+		for (int j = 0; j < x - i; j++) {
+			cout << " ";
+		}
+		for (int k = 0; k < i; k++) {
+			cout << "*";
+		}
+		cout << endl;
+	}
 }
-
+//16 Ð·Ð°Ð´Ð°Ñ‡Ð°-------------------------------------------
 int findFirst(vector<int> arr, int x) {
-    for (int i = 0; i < arr.size(); i++) {
-        if (arr[i] == x) {
-            return i;
-        }
-    }
-    return -1;
+	for (int i = 0; i < arr.size(); i++) {
+		if (arr[i] == x) {
+			return i;
+		}
+	}
+	return -1;
 }
-
+//17 Ð·Ð°Ð´Ð°Ñ‡Ð°-------------------------------------------
 int maxAbs(vector<int> arr) {
-    if (arr.empty()) {
-        return 0;
-    }
+	if (arr.empty()) {
+		return 0;
+	}
 
-    int maxAbsValue = arr[0];
-    for (int i = 1; i < arr.size(); i++) {
-        if (abs(arr[i]) > abs(maxAbsValue)) {
-            maxAbsValue = arr[i];
-        }
-    }
-    return maxAbsValue;
+	int maxAbsValue = arr[0];
+	for (int i = 1; i < arr.size(); i++) {
+		if (abs(arr[i]) > abs(maxAbsValue)) {
+			maxAbsValue = arr[i];
+		}
+	}
+	return maxAbsValue;
 }
+
+
+
+
+
 
 int main() {
-    SetConsoleCP(1251);
-    SetConsoleOutputCP(1251);
-    setlocale(LC_ALL, "RU");
+	SetConsoleCP(1251);
+	SetConsoleOutputCP(1251);
+	setlocale(LC_ALL, "RU");
 
-    while (true) {
-        cout << "\n" << string(80, '/') << endl;
+	while (true) {
+		cout << "\n" << string(80, '/') << endl;
 
-        int choice;
-        cout << "ÂÛÁÅÐÈÒÅ ÇÀÄÀ×Ó(îò 1 äî 20): ";
-        cin >> choice;
+		int choice;
+		cout << "Ð’Ð«Ð‘Ð•Ð Ð˜Ð¢Ð• Ð—ÐÐ”ÐÐ§Ð£(Ð¾Ñ‚ 1 Ð´Ð¾ 20): ";
+		cin >> choice;
 
-        if (choice == 0) {
-            cout << "Âûõîä èç ïðîãðàììû." << endl;
-            break;
-        }
+		if (choice == 0) {
+			cout << "Ð’Ñ‹Ñ…Ð¾Ð´ Ð¸Ð· Ð¿Ñ€Ð¾Ð³Ñ€Ð°Ð¼Ð¼Ñ‹." << endl;
+			break;
+		}
 
-        switch (choice) {
-        case 1: {
-            double num1;
-            cout << "Ââåäèòå ÷èñëî, äëÿ èçâëå÷íèÿ äðîáíîé ÷àñòè:";
-            cin >> num1;
-            double result1 = fraction(num1);
-            cout << "Äðîáíàÿ ÷àñòü ÷èñëà " << num1 << ": " << result1 << endl;
-            break;
-        }
-        case 2: {
-            char num2;
-            cout << "Ââåäè ñèìâîë äëÿ çíà÷åíèÿ ASCI êîäà îò 0 äî 9: ";
-            cin >> num2;
-            if (num2 >= '0' && num2 <= '9') {
-                int num2c = charToNum(num2);
-                cout << "Ñèìâîë:" << num2 << ". Ïðåîáðàçîâàí â ÷èñëî: " << num2c << endl;
-            }
-            else {
-                cout << "Îøèáêà! Ââåäåíà íå öèôðà, à ñèìâîë: '" << num2 << "'" << endl;
-            }
-            break;
-        }
-        case 3: {
-            int num3;
-            cout << "Ïðîâåðêà íà äâóçíà÷íîñòü " << endl;
-            cout << "Ââåäèòå äâóçíà÷íîå ÷èñëî: ";
-            cin >> num3;
-            if (is2Digits(num3)) {
-                cout << num3 << " - äâóçíà÷íîå ÷èñëî" << endl;
-            }
-            else {
-                cout << num3 << " - íå äâóçíà÷íîå ÷èñëî" << endl;
-            }
-            break;
-        }
-        case 4: {
-            int a, b, num4;
-            cout << "Îïðåäåëèòü âõîäèò ëè ÷èñëî â äèàïàçîí:  " << endl;
-            cout << "Ââåäèòå ìèíèìàëüíóþ ãðàíèöó äèàïàçîíà : ";
-            cin >> a;
-            cout << "Ââåäèòå ìàêñèìàëüíóþ ãðàíèöó äèàïàçîíà : ";
-            cin >> b;
-            cout << "Ââåäèòå ÷èñëî äëÿ ïðîâåðêè âõîæäåíèÿ â äèàïàçîí : ";
-            cin >> num4;
-            if (isInRange(a, b, num4)) {
-                cout << "×èñëî " << num4 << " íàõîäèòüñÿ â äèàïàçîíå îò " << a << " äî " << b << endl;
-            }
-            else {
-                cout << "×èñëî " << num4 << " íå íàõîäèòüñÿ â äèàïàçîíå îò " << a << " äî " << b << endl;
-            }
-            break;
-        }
-        case 5: {
-            int c, d, e;
-            cout << "Ïðîâåðêà ðàâåíñòâà ÷èñåë:" << endl;
-            cout << "Ââåäèòå ïåðâîå ÷èñëî: ";
-            cin >> c;
-            cout << "Ââåäèòå âòîðîå ÷èñëî: ";
-            cin >> d;
-            cout << "Ââåäèòå òðåòüå ÷èñëî: ";
-            cin >> e;
-            cout << "\nÐåçóëüòàò ïðîâåðêè:" << endl;
-            cout << "a = " << c << ", b = " << d << ", c = " << e << endl;
-            if (isEqual(c, d, e)) {
-                cout << "Ðåçóëüòàò: True" << endl;
-            }
-            else {
-                cout << "Ðåçóëüòàò: False" << endl;
-            }
-            break;
-        }
-        case 6: {
-            int x6;
-            cout << "Íàõîæäåíèå ìîäóëÿ ÷èñëà:  " << endl;
-            cout << "Ââåäèòå ÷èñëî: ";
-            cin >> x6;
-            int result6 = abs(x6);
-            cout << "Ìîäóëü ÷èñëà " << x6 << " ðàâåí: " << result6 << endl;
-            break;
-        }
-        case 7: {
-            int x7;
-            cout << "Ïðîâåðêà äåëåíèÿ íà 3 è íà 5(åñëè äåëèòñÿ íà îáà ÷èñëà ñðàçó òî íå ïîäõîäèò): " << endl;
-            cout << "Ââåäèòå ÷èñëî: ";
-            cin >> x7;
-            bool result7 = is35(x7);
-            if (result7 == true) {
-                cout << "true" << endl;
-            }
-            else {
-                cout << "false" << endl;
-            }
-            break;
-        }
-        case 8: {
-            int x8, y8, z8;
-            cout << "Íàõîæäåíèå áîëüøåãî èç 3 ÷èñåë" << endl;
-            cout << "Ââåäèòå 1 ÷èñëî: ";
-            cin >> x8;
-            cout << "Ââåäèòå 2 ÷èñëî: ";
-            cin >> y8;
-            cout << "Ââåäèòå 3 ÷èñëî: ";
-            cin >> z8;
-            int result8 = max3(x8, y8, z8);
-            cout << "1 ÷èñëî: " << x8 << "; 2 ÷èñëî: " << y8 << "; 3 ÷èñëî: " << z8 << endl;
-            cout << "Áîëüøèì ÷èñëîì ÿâëÿåòñÿ: " << result8 << endl;
-            break;
-        }
-        case 9: {
-            int x9, y9;
-            cout << "Íàõîæäåíèå ñóììû 2 ÷èñåë" << endl;
-            cout << "Ââåäèòå 1 ÷èñëî: ";
-            cin >> x9;
-            cout << "Ââåäèòå 2 ÷èñëî: ";
-            cin >> y9;
-            int result9 = sum2(x9, y9);
-            cout << "Ðåçóëüòàò = " << result9 << endl;
-            break;
-        }
-        case 10: {
-            int x10;
-            cout << "-----Îïðåäåëåíèå äíÿ íåäåëè ïî ÷èñëó----" << endl;
-            cout << "Ââåäèòå ÷èñëî îò 1 äî 7: ";
-            cin >> x10;
-            string result10 = day(x10);
-            cout << "Ðåçóëüòàò: " << result10 << endl;
-            break;
-        }
-        case 11: {
-            int x;
-            cout << "----Âîçâðàò ñòðîêè îò 0 äî ââåäåííîãî ÷èñëà------- " << endl;
-            cout << "Ââåäèòå ÷èñëî:  ";
-            cin >> x;
-            string result = ListNums(x);
-            cout << "Ðåçóëüòàò ñòðîêè: (" << result << ")" << endl;
-            break;
-        }
-        case 12: {
-            int x;
-            cout << "----Âîçâðàò ñòðîêè îò 0 äî ââåäåííîãî ÷èñëà(òîëüêî ÷åòíûå)------- " << endl;
-            cout << "Ââåäèòå ÷èñëî:  ";
-            cin >> x;
-            string result = chet(x);
-            cout << "Ðåçóëüòàò ñòðîêè: (" << result << ")" << endl;
-            break;
-        }
-        case 13: {
-            long x;
-            cout << "Ââåäèòå ÷èñëî: ";
-            cin >> x;
-            int length = numLen(x);
-            cout << "Êîëè÷åñòâî öèôð â ÷èñëå " << x << ": " << length << endl;
-            break;
-        }
-        case 14: {
-            int x;
-            cout << "Ââåäèòå ðàçìåð êâàäðàòà: ";
-            cin >> x;
-            cout << "Êâàäðàò " << x << "x" << x << ":" << endl;
-            square(x);
-            break;
-        }
-        case 15: {
-            int x;
-            cout << "Ââåäèòå âûñîòó òðåóãîëüíèêà: ";
-            cin >> x;
-            cout << "Ïðàâûé òðåóãîëüíèê âûñîòîé " << x << ":" << endl;
-            rightTriangle(x);
-            break;
-        }
-        case 16: {
-            int size;
-            cout << "Ââåäèòå êîëè÷åñòâî ýëåìåíòîâ â ìàññèâå: ";
-            cin >> size;
+		switch (choice) {
+		case 1: {
+			//1Ð·Ð°Ð´Ð°Ñ‡Ð°----------------------
+			double num1;
+			cout << "Ð’Ð²ÐµÐ´Ð¸Ñ‚Ðµ Ñ‡Ð¸ÑÐ»Ð¾, Ð´Ð»Ñ Ð¸Ð·Ð²Ð»ÐµÑ‡Ð½Ð¸Ñ Ð´Ñ€Ð¾Ð±Ð½Ð¾Ð¹ Ñ‡Ð°ÑÑ‚Ð¸:";
+			cin >> num1;
+			double result1 = fraction(num1);
+			cout << "Ð”Ñ€Ð¾Ð±Ð½Ð°Ñ Ñ‡Ð°ÑÑ‚ÑŒ Ñ‡Ð¸ÑÐ»Ð° " << num1 << ": " << result1 << endl;
+			break;
+		}
+		case 2: {
 
-            vector<int> arr(size);
+			//2Ð·Ð°Ð´Ð°Ñ‡Ð°----------------------
 
-            cout << "Ââåäèòå " << size << " ýëåìåíòîâ ìàññèâà:" << endl;
-            for (int i = 0; i < size; i++) {
-                cout << "Ýëåìåíò " << i + 1 << ": ";
-                cin >> arr[i];
-            }
+			char num2;
+			cout << "Ð’Ð²ÐµÐ´Ð¸ ÑÐ¸Ð¼Ð²Ð¾Ð» Ð´Ð»Ñ Ð·Ð½Ð°Ñ‡ÐµÐ½Ð¸Ñ ASCI ÐºÐ¾Ð´Ð° Ð¾Ñ‚ 0 Ð´Ð¾ 9: ";
+			cin >> num2;
+			if (num2 >= '0' && num2 <= '9') {
+				int num2c = charToNum(num2);
+				cout << "Ð¡Ð¸Ð¼Ð²Ð¾Ð»:" << num2 << ". ÐŸÑ€ÐµÐ¾Ð±Ñ€Ð°Ð·Ð¾Ð²Ð°Ð½ Ð² Ñ‡Ð¸ÑÐ»Ð¾: " << num2c << endl;
+			}
+			else {
+				cout << "ÐžÑˆÐ¸Ð±ÐºÐ°! Ð’Ð²ÐµÐ´ÐµÐ½Ð° Ð½Ðµ Ñ†Ð¸Ñ„Ñ€Ð°, Ð° ÑÐ¸Ð¼Ð²Ð¾Ð»: '" << num2 << "'" << endl;
+				break;
+			}
+		}
+		case 3: {
+			//3Ð·Ð°Ð´Ð°Ñ‡Ð°----------------------------------
 
-            cout << "Âàø ìàññèâ: ";
-            for (int i = 0; i < arr.size(); i++) {
-                cout << arr[i] << " ";
-            }
-            cout << endl;
+			int num3;
+			cout << "ÐŸÑ€Ð¾Ð²ÐµÑ€ÐºÐ° Ð½Ð° Ð´Ð²ÑƒÐ·Ð½Ð°Ñ‡Ð½Ð¾ÑÑ‚ÑŒ " << endl;;
+			cout << "Ð’Ð²ÐµÐ´Ð¸Ñ‚Ðµ Ð´Ð²ÑƒÐ·Ð½Ð°Ñ‡Ð½Ð¾Ðµ Ñ‡Ð¸ÑÐ»Ð¾: ";
+			cin >> num3;
+			if (is2Digits(num3)) {
+				cout << num3 << " - Ð´Ð²ÑƒÐ·Ð½Ð°Ñ‡Ð½Ð¾Ðµ Ñ‡Ð¸ÑÐ»Ð¾" << endl;
+			}
+			else {
+				cout << num3 << " - Ð½Ðµ Ð´Ð²ÑƒÐ·Ð½Ð°Ñ‡Ð½Ð¾Ðµ Ñ‡Ð¸ÑÐ»Ð¾" << endl;
+				break;
+			}
+		}
+		case 4: {
+			//4Ð·Ð°Ð´Ð°Ñ‡Ð°----------------------------------------
 
-            int x;
-            cout << "Ââåäèòå ÷èñëî äëÿ ïîèñêà: ";
-            cin >> x;
+			int a, b, num4;
+			cout << "ÐžÐ¿Ñ€ÐµÐ´ÐµÐ»Ð¸Ñ‚ÑŒ Ð²Ñ…Ð¾Ð´Ð¸Ñ‚ Ð»Ð¸ Ñ‡Ð¸ÑÐ»Ð¾ Ð² Ð´Ð¸Ð°Ð¿Ð°Ð·Ð¾Ð½:  " << endl;
+			cout << "Ð’Ð²ÐµÐ´Ð¸Ñ‚Ðµ Ð¼Ð¸Ð½Ð¸Ð¼Ð°Ð»ÑŒÐ½ÑƒÑŽ Ð³Ñ€Ð°Ð½Ð¸Ñ†Ñƒ Ð´Ð¸Ð°Ð¿Ð°Ð·Ð¾Ð½Ð° : ";
+			cin >> a;
+			cout << "Ð’Ð²ÐµÐ´Ð¸Ñ‚Ðµ Ð¼Ð°ÐºÑÐ¸Ð¼Ð°Ð»ÑŒÐ½ÑƒÑŽ Ð³Ñ€Ð°Ð½Ð¸Ñ†Ñƒ Ð´Ð¸Ð°Ð¿Ð°Ð·Ð¾Ð½Ð° : ";
+			cin >> b;
+			cout << "Ð’Ð²ÐµÐ´Ð¸Ñ‚Ðµ Ñ‡Ð¸ÑÐ»Ð¾ Ð´Ð»Ñ Ð¿Ñ€Ð¾Ð²ÐµÑ€ÐºÐ¸ Ð²Ñ…Ð¾Ð¶Ð´ÐµÐ½Ð¸Ñ Ð² Ð´Ð¸Ð°Ð¿Ð°Ð·Ð¾Ð½ : ";
+			cin >> num4;
+			if (isInRange(a, b, num4)) {
+				cout << "Ð§Ð¸ÑÐ»Ð¾ " << num4 << " Ð½Ð°Ñ…Ð¾Ð´Ð¸Ñ‚ÑŒÑÑ Ð² Ð´Ð¸Ð°Ð¿Ð°Ð·Ð¾Ð½Ðµ Ð¾Ñ‚ " << a << " Ð´Ð¾ " << b << endl;
+			}
+			else {
+				cout << "Ð§Ð¸ÑÐ»Ð¾ " << num4 << " Ð½Ðµ Ð½Ð°Ñ…Ð¾Ð´Ð¸Ñ‚ÑŒÑÑ Ð² Ð´Ð¸Ð°Ð¿Ð°Ð·Ð¾Ð½Ðµ Ð¾Ñ‚ " << a << " Ð´Ð¾ " << b << endl;
+				break;
+			}
+		}
+		case 5: {
+			//5Ð·Ð°Ð´Ð°Ñ‡Ð°----------------------------------------
 
-            int result = findFirst(arr, x);
+			int c, d, e;
+			cout << "ÐŸÑ€Ð¾Ð²ÐµÑ€ÐºÐ° Ñ€Ð°Ð²ÐµÐ½ÑÑ‚Ð²Ð° Ñ‡Ð¸ÑÐµÐ»:" << endl;
+			cout << "Ð’Ð²ÐµÐ´Ð¸Ñ‚Ðµ Ð¿ÐµÑ€Ð²Ð¾Ðµ Ñ‡Ð¸ÑÐ»Ð¾: ";
+			cin >> c;
+			cout << "Ð’Ð²ÐµÐ´Ð¸Ñ‚Ðµ Ð²Ñ‚Ð¾Ñ€Ð¾Ðµ Ñ‡Ð¸ÑÐ»Ð¾: ";
+			cin >> d;
+			cout << "Ð’Ð²ÐµÐ´Ð¸Ñ‚Ðµ Ñ‚Ñ€ÐµÑ‚ÑŒÐµ Ñ‡Ð¸ÑÐ»Ð¾: ";
+			cin >> e;
+			cout << "\nÐ ÐµÐ·ÑƒÐ»ÑŒÑ‚Ð°Ñ‚ Ð¿Ñ€Ð¾Ð²ÐµÑ€ÐºÐ¸:" << endl;
+			cout << "a = " << c << ", b = " << d << ", c = " << e << endl;
+			if (isEqual(c, d, e)) {
+				cout << "Ð ÐµÐ·ÑƒÐ»ÑŒÑ‚Ð°Ñ‚: True" << endl;
+			}
+			else {
+				cout << "Ð ÐµÐ·ÑƒÐ»ÑŒÑ‚Ð°Ñ‚: False" << endl;
+				break;
+			}
+		}
+		case 6: {
+			//6Ð·Ð°Ð´Ð°Ñ‡Ð°----------------------------------------
 
-            if (result != -1) {
-                cout << "Ïåðâîå âõîæäåíèå ÷èñëà " << x << " íàéäåíî ïî èíäåêñó: " << result << endl;
-            }
-            else {
-                cout << "×èñëî " << x << " íå íàéäåíî â ìàññèâå" << endl;
-            }
-            break;
-        }
-        case 17: {
-            int size;
-            cout << "Ââåäèòå êîëè÷åñòâî ýëåìåíòîâ â ìàññèâå: ";
-            cin >> size;
+			int x6;
+			cout << "ÐÐ°Ñ…Ð¾Ð¶Ð´ÐµÐ½Ð¸Ðµ Ð¼Ð¾Ð´ÑƒÐ»Ñ Ñ‡Ð¸ÑÐ»Ð°:  " << endl;;
+			cout << "Ð’Ð²ÐµÐ´Ð¸Ñ‚Ðµ Ñ‡Ð¸ÑÐ»Ð¾: ";
+			cin >> x6;
+			int result6 = abs(x6);
+			cout << "ÐœÐ¾Ð´ÑƒÐ»ÑŒ Ñ‡Ð¸ÑÐ»Ð° " << x6 << " Ñ€Ð°Ð²ÐµÐ½: " << result6 << endl;
+			break;
+		}
+		case 7: {
+			//7Ð·Ð°Ð´Ð°Ñ‡Ð°----------------------------------------
 
-            vector<int> arr(size);
+			int x7;
+			cout << "ÐŸÑ€Ð¾Ð²ÐµÑ€ÐºÐ° Ð´ÐµÐ»ÐµÐ½Ð¸Ñ Ð½Ð° 3 Ð¸ Ð½Ð° 5(ÐµÑÐ»Ð¸ Ð´ÐµÐ»Ð¸Ñ‚ÑÑ Ð½Ð° Ð¾Ð±Ð° Ñ‡Ð¸ÑÐ»Ð° ÑÑ€Ð°Ð·Ñƒ Ñ‚Ð¾ Ð½Ðµ Ð¿Ð¾Ð´Ñ…Ð¾Ð´Ð¸Ñ‚): " << endl;
+			cout << "Ð’Ð²ÐµÐ´Ð¸Ñ‚Ðµ Ñ‡Ð¸ÑÐ»Ð¾: ";
+			cin >> x7;
+			bool result7 = is35(x7);
+			if (result7 == true) {
+				cout << "true" << endl;
+			}
+			else {
+				cout << "false" << endl;
+				break;
+			}
+		}
+		case 8: {
+			//8Ð·Ð°Ð´Ð°Ñ‡Ð°----------------------------------------
 
-            cout << "Ââåäèòå " << size << " ýëåìåíòîâ ìàññèâà:" << endl;
-            for (int i = 0; i < size; i++) {
-                cout << "Ýëåìåíò " << i + 1 << ": ";
-                cin >> arr[i];
-            }
+			int x8, y8, z8;
+			cout << "ÐÐ°Ñ…Ð¾Ð¶Ð´ÐµÐ½Ð¸Ðµ Ð±Ð¾Ð»ÑŒÑˆÐµÐ³Ð¾ Ð¸Ð· 3 Ñ‡Ð¸ÑÐµÐ»" << endl;
+			cout << "Ð’Ð²ÐµÐ´Ð¸Ñ‚Ðµ 1 Ñ‡Ð¸ÑÐ»Ð¾: ";
+			cin >> x8;
+			cout << "Ð’Ð²ÐµÐ´Ð¸Ñ‚Ðµ 2 Ñ‡Ð¸ÑÐ»Ð¾: ";
+			cin >> y8;
+			cout << "Ð’Ð²ÐµÐ´Ð¸Ñ‚Ðµ 3 Ñ‡Ð¸ÑÐ»Ð¾: ";
+			cin >> z8;
+			int result8 = max3(x8, y8, z8);
+			cout << "1 Ñ‡Ð¸ÑÐ»Ð¾: " << x8 << "; 2 Ñ‡Ð¸ÑÐ»Ð¾: " << y8 << "; 3 Ñ‡Ð¸ÑÐ»Ð¾: " << z8 << endl;
+			cout << "Ð‘Ð¾Ð»ÑŒÑˆÐ¸Ð¼ Ñ‡Ð¸ÑÐ»Ð¾Ð¼ ÑÐ²Ð»ÑÐµÑ‚ÑÑ: " << result8 << endl;
+			break;
+		}
+		case 9: {
+			//9Ð·Ð°Ð´Ð°Ñ‡Ð°----------------------------------------
 
-            cout << "Âàø ìàññèâ: ";
-            for (int num : arr) {
-                cout << num << " ";
-            }
-            cout << endl;
+			int x9, y9;
+			cout << "ÐÐ°Ñ…Ð¾Ð¶Ð´ÐµÐ½Ð¸Ðµ ÑÑƒÐ¼Ð¼Ñ‹ 2 Ñ‡Ð¸ÑÐµÐ»" << endl;
+			cout << "Ð’Ð²ÐµÐ´Ð¸Ñ‚Ðµ 1 Ñ‡Ð¸ÑÐ»Ð¾: ";
+			cin >> x9;
+			cout << "Ð’Ð²ÐµÐ´Ð¸Ñ‚Ðµ 2 Ñ‡Ð¸ÑÐ»Ð¾: ";
+			cin >> y9;
+			int result9 = sum2(x9, y9);
+			cout << "Ð ÐµÐ·ÑƒÐ»ÑŒÑ‚Ð°Ñ‚ = " << result9 << endl;
+			break;
+		}
+		case 10: {
+			//10Ð·Ð°Ð´Ð°Ñ‡Ð°----------------------------------------
+			int x10;
 
-            int result = maxAbs(arr);
-            cout << "Ìàêñèìàëüíîå ïî ìîäóëþ çíà÷åíèå: " << result << endl;
-            cout << "Åãî ìîäóëü: " << abs(result) << endl;
-            break;
-        }
-        case 18: {
-            cout << "Â ðàçðàáîòêå" << endl;
-            break;
-        }
-        case 19: {
-            cout << "Â ðàçðàáîòêå" << endl;
-            break;
-        }
-        case 20: {
-            cout << "Â ðàçðàáîòêå" << endl;
-            break;
-        }
-        default:
-            cout << "Íå ñóùåñòâóåò çàäà÷è ñ òàêèì íîìåðîì" << endl;
-            break;
-        }
-    }
-    return 0;
+			cout << "-----ÐžÐ¿Ñ€ÐµÐ´ÐµÐ»ÐµÐ½Ð¸Ðµ Ð´Ð½Ñ Ð½ÐµÐ´ÐµÐ»Ð¸ Ð¿Ð¾ Ñ‡Ð¸ÑÐ»Ñƒ----" << endl;
+			cout << "Ð’Ð²ÐµÐ´Ð¸Ñ‚Ðµ Ñ‡Ð¸ÑÐ»Ð¾ Ð¾Ñ‚ 1 Ð´Ð¾ 7: ";
+			cin >> x10;
+
+			string result10 = day(x10);
+			cout << "Ð ÐµÐ·ÑƒÐ»ÑŒÑ‚Ð°Ñ‚: " << result10 << endl;
+			break;
+		}
+		case 11: {
+			//11Ð·Ð°Ð´Ð°Ñ‡Ð°----------------------------------------
+			int x;
+			cout << "----Ð’Ð¾Ð·Ð²Ñ€Ð°Ñ‚ ÑÑ‚Ñ€Ð¾ÐºÐ¸ Ð¾Ñ‚ 0 Ð´Ð¾ Ð²Ð²ÐµÐ´ÐµÐ½Ð½Ð¾Ð³Ð¾ Ñ‡Ð¸ÑÐ»Ð°------- " << endl;
+			cout << "Ð’Ð²ÐµÐ´Ð¸Ñ‚Ðµ Ñ‡Ð¸ÑÐ»Ð¾:  ";
+			cin >> x;
+			string result = ListNums(x);
+			cout << "Ð ÐµÐ·ÑƒÐ»ÑŒÑ‚Ð°Ñ‚ ÑÑ‚Ñ€Ð¾ÐºÐ¸: (" << result << ")" << endl;
+			break;
+		}
+		case 12: {
+			//12Ð·Ð°Ð´Ð°Ñ‡Ð°----------------------------------------
+			int x;
+			cout << "----Ð’Ð¾Ð·Ð²Ñ€Ð°Ñ‚ ÑÑ‚Ñ€Ð¾ÐºÐ¸ Ð¾Ñ‚ 0 Ð´Ð¾ Ð²Ð²ÐµÐ´ÐµÐ½Ð½Ð¾Ð³Ð¾ Ñ‡Ð¸ÑÐ»Ð°(Ñ‚Ð¾Ð»ÑŒÐºÐ¾ Ñ‡ÐµÑ‚Ð½Ñ‹Ðµ)------- " << endl;
+			cout << "Ð’Ð²ÐµÐ´Ð¸Ñ‚Ðµ Ñ‡Ð¸ÑÐ»Ð¾:  ";
+			cin >> x;
+			string result = chet(x);
+			cout << "Ð ÐµÐ·ÑƒÐ»ÑŒÑ‚Ð°Ñ‚ ÑÑ‚Ñ€Ð¾ÐºÐ¸: (" << result << ")" << endl;
+			break;
+		}
+		case 13: {
+			//13Ð·Ð°Ð´Ð°Ñ‡Ð°----------------------------------------
+			long x;
+
+			cout << "Ð’Ð²ÐµÐ´Ð¸Ñ‚Ðµ Ñ‡Ð¸ÑÐ»Ð¾: ";
+			cin >> x;
+
+			int length = numLen(x);
+			cout << "ÐšÐ¾Ð»Ð¸Ñ‡ÐµÑÑ‚Ð²Ð¾ Ñ†Ð¸Ñ„Ñ€ Ð² Ñ‡Ð¸ÑÐ»Ðµ " << x << ": " << length << endl;	
+			break;
+		}
+		case 14: {
+			//14Ð·Ð°Ð´Ð°Ñ‡Ð°----------------------------------------
+			int x;
+			cout << "Ð’Ð²ÐµÐ´Ð¸Ñ‚Ðµ Ñ€Ð°Ð·Ð¼ÐµÑ€ ÐºÐ²Ð°Ð´Ñ€Ð°Ñ‚Ð°: ";
+			cin >> x;
+			cout << "ÐšÐ²Ð°Ð´Ñ€Ð°Ñ‚ " << x << "x" << x<< ":" << endl;
+			square(x);
+			break;
+		}
+		case 15: {
+			//15Ð·Ð°Ð´Ð°Ñ‡Ð°----------------------------------------
+			int x;
+			cout << "Ð’Ð²ÐµÐ´Ð¸Ñ‚Ðµ Ð²Ñ‹ÑÐ¾Ñ‚Ñƒ Ñ‚Ñ€ÐµÑƒÐ³Ð¾Ð»ÑŒÐ½Ð¸ÐºÐ°: ";
+			cin >> x;
+
+			cout << "ÐŸÑ€Ð°Ð²Ñ‹Ð¹ Ñ‚Ñ€ÐµÑƒÐ³Ð¾Ð»ÑŒÐ½Ð¸Ðº Ð²Ñ‹ÑÐ¾Ñ‚Ð¾Ð¹ " << x << ":" << endl;
+			rightTriangle(x);
+			break;
+		}
+		case 16: {
+			int size;
+			cout << "Ð’Ð²ÐµÐ´Ð¸Ñ‚Ðµ ÐºÐ¾Ð»Ð¸Ñ‡ÐµÑÑ‚Ð²Ð¾ ÑÐ»ÐµÐ¼ÐµÐ½Ñ‚Ð¾Ð² Ð² Ð¼Ð°ÑÑÐ¸Ð²Ðµ: ";
+			cin >> size;
+			vector<int> arr(size);
+			cout << "Ð’Ð²ÐµÐ´Ð¸Ñ‚Ðµ " << size << " ÑÐ»ÐµÐ¼ÐµÐ½Ñ‚Ð¾Ð² Ð¼Ð°ÑÑÐ¸Ð²Ð°:" << endl;
+			for (int i = 0; i < size; i++) {
+				cout << "Ð­Ð»ÐµÐ¼ÐµÐ½Ñ‚ " << i + 1 << ": ";
+				cin >> arr[i];  
+			}
+
+			cout << "Ð’Ð°Ñˆ Ð¼Ð°ÑÑÐ¸Ð²: ";
+			for (int i = 0; i < arr.size(); i++) {
+				cout << arr[i] << " ";
+			}
+			cout << endl;
+
+			int x;
+			cout << "Ð’Ð²ÐµÐ´Ð¸Ñ‚Ðµ Ñ‡Ð¸ÑÐ»Ð¾ Ð´Ð»Ñ Ð¿Ð¾Ð¸ÑÐºÐ°: ";
+			cin >> x;
+			int result = findFirst(arr, x);
+			if (result != -1) {
+				cout << "ÐŸÐµÑ€Ð²Ð¾Ðµ Ð²Ñ…Ð¾Ð¶Ð´ÐµÐ½Ð¸Ðµ Ñ‡Ð¸ÑÐ»Ð° " << x << " Ð½Ð°Ð¹Ð´ÐµÐ½Ð¾ Ð¿Ð¾ Ð¸Ð½Ð´ÐµÐºÑÑƒ: " << result << endl;
+			}
+			else {
+				cout << "Ð§Ð¸ÑÐ»Ð¾ " << x << " Ð½Ðµ Ð½Ð°Ð¹Ð´ÐµÐ½Ð¾ Ð² Ð¼Ð°ÑÑÐ¸Ð²Ðµ" << endl;
+				cout << "-1" << endl;
+				
+			}
+			break;
+		}
+		case 17: {
+			int size;
+			cout << "Ð’Ð²ÐµÐ´Ð¸Ñ‚Ðµ ÐºÐ¾Ð»Ð¸Ñ‡ÐµÑÑ‚Ð²Ð¾ ÑÐ»ÐµÐ¼ÐµÐ½Ñ‚Ð¾Ð² Ð² Ð¼Ð°ÑÑÐ¸Ð²Ðµ: ";
+			cin >> size;
+
+			vector<int> arr(size);
+
+			cout << "Ð’Ð²ÐµÐ´Ð¸Ñ‚Ðµ " << size << " ÑÐ»ÐµÐ¼ÐµÐ½Ñ‚Ð¾Ð² Ð¼Ð°ÑÑÐ¸Ð²Ð°:" << endl;
+			for (int i = 0; i < size; i++) {
+				cout << "Ð­Ð»ÐµÐ¼ÐµÐ½Ñ‚ " << i + 1 << ": ";
+				cin >> arr[i];
+			}
+
+			cout << "Ð’Ð°Ñˆ Ð¼Ð°ÑÑÐ¸Ð²: ";
+			for (int num : arr) {
+				cout << num << " ";
+			}
+			cout << endl;
+
+			int result = maxAbs(arr);
+			cout << "ÐœÐ°ÐºÑÐ¸Ð¼Ð°Ð»ÑŒÐ½Ð¾Ðµ Ð¿Ð¾ Ð¼Ð¾Ð´ÑƒÐ»ÑŽ Ð·Ð½Ð°Ñ‡ÐµÐ½Ð¸Ðµ: " << result << endl;
+			cout << "Ð•Ð³Ð¾ Ð¼Ð¾Ð´ÑƒÐ»ÑŒ: " << abs(result) << endl;
+			break;
+		}
+		default:
+			cout << "ÐÐµ ÑÑƒÑ‰ÐµÑÑ‚Ð²ÑƒÐµÑ‚ Ð·Ð°Ð´Ð°Ñ‡Ð¸ Ñ Ñ‚Ð°ÐºÐ¸Ð¼ Ð½Ð¾Ð¼ÐµÑ€Ð¾Ð¼." << endl;
+			break;
+		}
+	}
+	return 0;
 }
