@@ -32,7 +32,7 @@ https://sun9-23.userapi.com/s/v1/if2/dJ7_gWeKjb9xQXO0nRcVgCqAYbZBh8LwXr7Sec5x1gk
 Возвращаем его ASCII код 
 
 Тесты: 
-
+https://sun9-67.userapi.com/s/v1/if2/Q79ntCuYvdJQrIz7n10N-tAjyziNlX1wV_zvwwXVNux3wtWqQUTxaZv1Inxxnj8BinezmZwPLQy4TN1Uq_92YI5k.jpg?quality=95&as=32x12,48x18,72x27,108x41,160x60,240x91,360x136,480x181,540x204,640x242,720x272,939x355&from=bu&cs=939x0
  
 
  
@@ -54,6 +54,7 @@ https://sun9-23.userapi.com/s/v1/if2/dJ7_gWeKjb9xQXO0nRcVgCqAYbZBh8LwXr7Sec5x1gk
 Тесты: 
 
  
+https://sun9-29.userapi.com/s/v1/if2/odlbUKq24K1oV5CisNYKWRcYiBeIKJJQruas7oEPO-ttLqMMenDwqfJ9gsxTbgFFVmjUgrFq_7Bxk-xBocv5254p.jpg?quality=95&as=32x16,48x24,72x36,108x54,160x80,240x120,360x180,480x240,540x270,640x320,720x360,939x470&from=bu&cs=939x0
 
  
 
@@ -74,8 +75,8 @@ https://sun9-23.userapi.com/s/v1/if2/dJ7_gWeKjb9xQXO0nRcVgCqAYbZBh8LwXr7Sec5x1gk
 Если да - true, если нет - false 
 
 Тесты: 
+https://sun9-76.userapi.com/s/v1/if2/K6OzY4t7BgLsqOOYmaITe9t0MDTgdJ9hV3iblLETKkG59_PXYfMXp_r13FO-LlsM6FOfiy8hLDBhwvSfFcTMKn3B.jpg?quality=95&as=32x20,48x31,72x46,108x69,160x102,240x153,360x229,480x306,540x344,640x408,720x459,939x598&from=bu&cs=939x0
 
- 
 
  
 
@@ -94,7 +95,7 @@ https://sun9-23.userapi.com/s/v1/if2/dJ7_gWeKjb9xQXO0nRcVgCqAYbZBh8LwXr7Sec5x1gk
 Если оба условия true - все числа равны 
 
 Тесты: 
-
+https://sun9-18.userapi.com/s/v1/if2/E0sszCAEAKJYf1o-ITy9NdaWIPLoW_Z4PbVwxAk3_C6t6Lj3mwAilKi657iG6nf4I0bUGdqACjMin7FxGayxGgck.jpg?quality=95&as=32x28,48x42,72x64,108x95,160x141,240x212,360x318,480x424,540x477,640x566,720x636,939x830&from=bu&cs=939x0
  
 
  
@@ -113,7 +114,7 @@ https://sun9-23.userapi.com/s/v1/if2/dJ7_gWeKjb9xQXO0nRcVgCqAYbZBh8LwXr7Sec5x1gk
 
 Тесты: 
 
- 
+ https://sun9-49.userapi.com/s/v1/if2/jRoaNotirgzFlr9XJLpxPjnvx3mO9JiDnMS_HONCcidGZ5LHH9TEpV3DZNG8-GUKRK45f6tlRWP2Qaxwf_8MoTrb.jpg?quality=95&as=32x15,48x23,72x34,108x51,160x75,240x113,360x169,480x226,540x254,640x301,720x339,939x442&from=bu&cs=939x0
 
  
 
@@ -133,7 +134,7 @@ https://sun9-23.userapi.com/s/v1/if2/dJ7_gWeKjb9xQXO0nRcVgCqAYbZBh8LwXr7Sec5x1gk
 
 Тесты: 
 
- 
+ https://sun9-79.userapi.com/s/v1/if2/PFnwXnnJxk9V1IIY_vsL3ARdouityFOc1J2GP4E6sy16hIy6BKq0NPwZAWrcYVyiehX_5HspRqeH1D9FTPPqwF0C.jpg?quality=95&as=32x15,48x23,72x35,108x52,160x78,240x116,360x174,480x233,540x262,640x310,720x349,939x455&from=bu&cs=939x0
 
  
 
@@ -154,7 +155,7 @@ https://sun9-23.userapi.com/s/v1/if2/dJ7_gWeKjb9xQXO0nRcVgCqAYbZBh8LwXr7Sec5x1gk
 Возвращаем самое большое 
 
 Тесты: 
-
+https://sun9-63.userapi.com/s/v1/if2/tkDE9sCyMP84D8Mgm5CYPObOVM_vPuFa21Dz4XXtBZCAvd4OVeeytDvZ5KAZBJXSaWNhoF5MrqmqCea6bDMB3YHY.jpg?quality=95&as=32x23,48x35,72x52,108x78,160x116,240x173,360x260,480x347,540x390,640x462,720x520,939x678&from=bu&cs=939x0
  
 
  
@@ -175,7 +176,7 @@ https://sun9-23.userapi.com/s/v1/if2/dJ7_gWeKjb9xQXO0nRcVgCqAYbZBh8LwXr7Sec5x1gk
 
 Тесты: 
 
- 
+ https://sun9-3.userapi.com/s/v1/if2/YZmbxBSzmqMKhBvy5eKBdQyVyW8nO2_sHmQxl64zEWe-3VfXvSnLKnZE1_HhHwk-9vqh2x3Nix09pe4NavAL7VGk.jpg?quality=95&as=32x18,48x27,72x41,108x62,160x92,240x137,360x206,480x275,540x309,640x367,720x413,939x538&from=bu&cs=939x0
 
  
 
@@ -194,7 +195,7 @@ https://sun9-23.userapi.com/s/v1/if2/dJ7_gWeKjb9xQXO0nRcVgCqAYbZBh8LwXr7Sec5x1gk
 Если число не от 1 до 7 - сообщаем об ошибке 
 
 Тесты: 
-
+https://sun9-69.userapi.com/s/v1/if2/cZPdIFjKjeRimLkWgMW5Hsco43GgUFirA1WceEpngqovlC24b0wikWKwH49POdviXgwNTGk9180379AEflfd5yiJ.jpg?quality=95&as=32x16,48x23,72x35,108x52,160x78,240x117,360x175,480x233,540x262,640x311,720x350,939x456&from=bu&cs=939x0
  
 
  
@@ -216,7 +217,7 @@ https://sun9-23.userapi.com/s/v1/if2/dJ7_gWeKjb9xQXO0nRcVgCqAYbZBh8LwXr7Sec5x1gk
 Возвращаем готовую строку 
 
 Тесты: 
-
+https://sun9-15.userapi.com/s/v1/if2/wLI2xPiep9KUfGiMRrDJIw4d3c76x1OyFXjzoSxCNLaFcPh-pttosb1YTAV_O1VsRNxOZKkpYpYN-xObAjDIzYf1.jpg?quality=95&as=32x15,48x23,72x35,108x52,160x77,240x116,360x174,480x232,540x261,640x309,720x347,939x453&from=bu&cs=939x0
  
 
  
@@ -238,7 +239,7 @@ https://sun9-23.userapi.com/s/v1/if2/dJ7_gWeKjb9xQXO0nRcVgCqAYbZBh8LwXr7Sec5x1gk
 Возвращаем строку 
 
 Тесты: 
-
+https://sun9-34.userapi.com/s/v1/if2/T0CGimtHJgVvoLCdYhCwPjwSTCwGBa2GToUEJjurGJgDxYQt0ZxILHnjzOdSI472fUdxrHyyzklBYDfnoTs6IcZd.jpg?quality=95&as=32x15,48x23,72x35,108x52,160x77,240x116,360x174,480x232,540x261,640x309,720x347,939x453&from=bu&cs=939x0
  
 
  
@@ -260,7 +261,7 @@ https://sun9-23.userapi.com/s/v1/if2/dJ7_gWeKjb9xQXO0nRcVgCqAYbZBh8LwXr7Sec5x1gk
 Считаем сколько раз поделили - это и есть количество цифр 
 
 Тесты: 
-
+https://sun9-35.userapi.com/s/v1/if2/f2XEJuCCced40zqNobZ1BfLCRhOhILBocAt5HIbsuDL5tzFpcLH55S8ridxkZlqRHLgExPmh97QjcqSPJ45txK_7.jpg?quality=95&as=32x13,48x20,72x30,108x45,160x67,240x100,360x150,480x200,540x225,640x267,720x301,939x392&from=bu&cs=939x0
  
 
  
@@ -283,7 +284,8 @@ https://sun9-23.userapi.com/s/v1/if2/dJ7_gWeKjb9xQXO0nRcVgCqAYbZBh8LwXr7Sec5x1gk
 
 Тесты: 
 
- 
+https://sun9-85.userapi.com/s/v1/if2/UCc7LV11GYibHf_IlANZ9eiroYk1-3nmTLYhHfXHzkyS2xEWfO-dxx6M6u9VWIgaawaz-FDcGYsNzzjTjUtlchDg.jpg?quality=95&as=32x22,48x33,72x50,108x74,160x110,240x165,360x248,480x331,540x372,640x441,720x496,939x647&from=bu&cs=939x0
+
 
  
 
@@ -305,7 +307,7 @@ https://sun9-23.userapi.com/s/v1/if2/dJ7_gWeKjb9xQXO0nRcVgCqAYbZBh8LwXr7Sec5x1gk
 
 Тесты: 
 
- 
+ https://sun9-86.userapi.com/s/v1/if2/YvwHYds0wA11UURBPoM3eV3quntglH9SJvX-xmGK_dCEpnpAdGM4MfdVkZoTYZc-bHPkHCMaXroHNE68DZJZMYWU.jpg?quality=95&as=32x23,48x35,72x52,108x78,160x116,240x174,360x261,480x348,540x391,640x463,720x521,939x680&from=bu&cs=939x0
 
  
 
@@ -324,7 +326,7 @@ https://sun9-23.userapi.com/s/v1/if2/dJ7_gWeKjb9xQXO0nRcVgCqAYbZBh8LwXr7Sec5x1gk
 Если дошли до конца и не нашли - возвращаем -1 
 
 Тесты: 
-
+https://sun9-57.userapi.com/s/v1/if2/hJ6nD3SBahNEkGJbbqaFqnbAJz9wyIeBh3q9rg-d_ppGtpp0seyMHpjmmGpQCCkJrqSTv438XfqqMjBGJnZANxzh.jpg?quality=95&as=32x29,48x43,72x64,108x97,160x143,240x215,360x322,480x430,540x484,640x573,720x645,939x841&from=bu&cs=939x0
  
 
  
@@ -350,3 +352,4 @@ https://sun9-23.userapi.com/s/v1/if2/dJ7_gWeKjb9xQXO0nRcVgCqAYbZBh8LwXr7Sec5x1gk
 Возвращаем найденное число 
 
 Тесты: 
+https://sun9-57.userapi.com/s/v1/if2/hIXUDwCmKjMX432mXysKfQmszHRd5JE3Qupq11hHOAnMujrdvY1HZENwSvfrixNfP9jbjzwI8hb71WKzD2lWWsn9.jpg?quality=95&as=32x27,48x41,72x61,108x91,160x135,240x203,360x304,480x406,540x457,640x541,720x609,939x794&from=bu&cs=939x0
